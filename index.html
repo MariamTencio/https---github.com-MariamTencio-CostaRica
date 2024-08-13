@@ -1,0 +1,82 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Costa Rica - Travel Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="logo-title"> 
+            <img src="images/logo_processed.jpg" alt="Explore Costa Rica Logo" class="logo">
+
+        </div>
+       
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Costa Rica</h2>
+        <p>Discover the beauty and adventure of Costa Rica with our exclusive travel packages.</p>
+    </section>
+    
+    <section id="destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination">
+            <a href="manuel_antonio.html">
+                <img src="images/manuel_antonio.jpg" alt="Manuel Antonio">
+                <h3>Manuel Antonio</h3>
+            </a>
+            <p>Explore the stunning beaches and lush rainforests of Manuel Antonio National Park.</p>
+        </div>
+        <div class="destination">
+            <a href="arenal.html">
+                <img src="images/arenal.jpg" alt="Arenal Volcano">
+                <h3>Arenal Volcano</h3>
+            </a>
+            <p>Experience the majesty of Arenal Volcano and its surrounding hot springs and hiking trails.</p>
+        </div>
+        <div class="destination">
+            <a href="monteverde.html">
+                <img src="images/monteverde.jpg" alt="Monteverde">
+                <h3>Monteverde</h3>
+            </a>
+            <p>Visit the cloud forests of Monteverde for an unforgettable eco-tourism adventure.</p>
+        </div>
+    
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Explore Costa Rica. All rights reserved.</p>
+    </footer>
+</body>
+</html>

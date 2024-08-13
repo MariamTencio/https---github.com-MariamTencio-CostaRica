@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/CR.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px; /* Adds some padding inside the section */
+    color: white; /* Changes the text color to white for better contrast */
+    text-align: center; /* Centers the text */
+    margin: 0;
+}
+
+
+
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 600px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px; /* Space between logo and title */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px; /* Space between menu items */
+}
+
+nav li {
+    position: relative;
+}
+
+nav li:not(:last-child) {
+    border-right: 1px solid #ffffff; /* Adds a white line between items */
+    padding-right: 50px; /* Adds space after the line */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav a:hover {
+    color: #007bff;
+    
+}
+
+
+
+section {
+   
+    text-align: center;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination {
+    margin: 1em;
+    text-align: left;
+    max-width: 300px;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    width: 100%;
+   
+    margin-top: 0.5em;
+}
+
+form button {
+    display: block;
+    margin: 5em 0;
+    padding: 0.5em 1em;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
